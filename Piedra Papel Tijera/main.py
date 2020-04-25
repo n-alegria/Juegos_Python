@@ -8,8 +8,8 @@ usuarioUno = input("Nombre primer jugador: ")
 usuarioDos = input("Nombre segundo jugador: ")
 
 # Solicito sus respuestas y las casteo a minusculas
-respuestaUno = input(f"\n{usuarioUno}, Eliga: piedra, papel o tijera: ").lower()
-respuestaDos = input(f"{usuarioDos}, Eliga: piedra, papel o tijera: ").lower()
+respuestaUno = input(f"\n{usuarioUno}, Elija: piedra, papel o tijera: ").lower()
+respuestaDos = input(f"{usuarioDos}, Elija: piedra, papel o tijera: ").lower()
 
 def juego(unoRespuesta, dosRespuesta):
     if unoRespuesta == dosRespuesta:
